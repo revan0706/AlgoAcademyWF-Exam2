@@ -1,0 +1,42 @@
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #153e52;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+header > p {
+  flex: 1;
+  margin: 0px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 34px;
+}
+header > nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-right: 60px;
+}
+header > nav > a {
+  padding: 24px 8px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+header > nav > a.h-hover:hover{
+  color: #14bf98;
+}
+header > nav > a.icon {
+  padding: 19px 0px 0px 0px;
+  font-size: 25px;
+}
+header > nav > a.icon-margin {
+  margin-left: 10px;
+}
+header > nav > a:first-child{
+  color: #14bf98;
+}

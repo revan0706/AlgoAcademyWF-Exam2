@@ -1,0 +1,42 @@
+div.dropDown{
+
+}
+div.dropDown > a{
+    padding: 24px 8px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+div.dropDown > a:hover{
+    color: #14bf98;
+}
+div.dropDown:hover > a{
+    color: #14bf98;
+}
+div.dropDown > div.list{
+position: absolute;
+display: flex;
+flex-direction: column;
+background-color: #153e52;
+padding: 8px;
+transform: translateX(-11px);
+visibility: hidden;
+
+}
+div.dropDown > div.list > a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+div.dropDown > div.list > a:hover{
+    color: #14bf98;
+}
+div.dropDown > div.list > a.firstChild{
+    border-bottom: 1px solid #2a5d77;
+    
+}
+div.dropDown:hover > div.list{
+    visibility: visible;
+}
