@@ -1,0 +1,48 @@
+section.learnMore {
+  width: 100%;
+  background-image: url(../images/about.jpg);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+}
+section.learnMore > div.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  transform: translateY(46px);
+}
+section.learnMore > div.text > h1 {
+  font-size: 45px;
+  color: white;
+  font-weight: 900;
+  margin: 0px;
+}
+section.learnMore > div.text > p {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+section.learnMore > div.text > a {
+  text-decoration: none;
+  color: white;
+  background-color: #14bf98;
+  padding: 16px 24px;
+  width: 150px;
+
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  margin-left: 45%;
+}
+section.learnMore > div.text > a:hover {
+  background-color: transparent;
+  border: 1px solid #14bf98;
+}
